@@ -8,6 +8,7 @@ def is_float(s):
     except ValueError:
         return False
 
+#parses json file for molecule space
 def parser(filepath):
 
     file = open(filepath, "r") #open molecule space filepath
